@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arraymantigi", "Arraymantigi.csproj", "{1976B866-0BB5-41C6-8F65-BDC9C7E4439E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1976B866-0BB5-41C6-8F65-BDC9C7E4439E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1976B866-0BB5-41C6-8F65-BDC9C7E4439E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1976B866-0BB5-41C6-8F65-BDC9C7E4439E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1976B866-0BB5-41C6-8F65-BDC9C7E4439E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {573F6205-C8C0-45BE-90B1-0F8213E491FF}
+	EndGlobalSection
+EndGlobal
