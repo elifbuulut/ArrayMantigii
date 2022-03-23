@@ -8,18 +8,15 @@ namespace Arraymantigi
 {
     internal class Program
     {
-        // convention : yazım kuralı olarak düşünebiliriz 
-        // intelisense : akıllı özelliği, seçenek çıkartması ;tamamlaması tab tab vs 
-        // alias =takma ad 
-        // foreach (string kurs in kurslar ) =>> burda ki kursa Alias diyoruz. yani sen buraya a,b,c ,x vs desen çalışır. Takma isim vceriyoruz .
+
         static void Main(string[] args)
         {
-            // Mantık şu diyelim manavın var meyveleri kaydediceksin urun1,urun2,urun3... vs diye birsürü değişken ekleyip onlara değer ataman gerekirdi
+            // Meyveler kaydedilecek urun1,urun2,urun3... vs diye birsürü değişken ekleyip onlara değer ataman gerekirdi
             string urun1 = "elma";
             string urun2 = "çilek";
             string urun3 = "portakal";
             Console.WriteLine(urun1+" "+urun2+" "+urun3); //her bir ürün için ayrı ayrı değişken atayıp  yazdırmak gerekiyordu fakat bu çok çok gereksiz
-            // bunun yerine bir adet değişkende birden fazla ürün tutabilirim array yontemiyle . 
+            // bunun yerine bir adet değişkende birden fazla ürün tutarız array yontemiyle . 
             string [] urunler=new string[] { "elma", "çilek", "portakal" };
             foreach (string urun in urunler)
             {
@@ -38,7 +35,7 @@ namespace Arraymantigi
             Console.WriteLine(kurs4);
             Console.WriteLine( "************************* Dizi İle yapıyoruz  -burda for döngüsü kullandık****************************");
             // bu şekilde tekrarlı yazmak yerine arraydan yararlanırız. örn Javascript diye bir değere yazdırmak istiyorum. bunun için tekrar bir değşken oluşturup
-            // console.writeline yazmam gerekiyordu. E ticaret sitesini düşünelim elimde çok fazla ürün var. Herbiri için değişken oluşturmak çok mantıksız olurç 
+            // console.writeline yazmam gerekiyordu. E ticaret sitesini düşünelim elimde çok fazla ürün var. Herbiri için değişken oluşturmak çok mantıksız olur 
             // bu gibi durumlarda liste yapısı kullanırız. İşlevleri aynıbirden fazla eleman! 
             //string kurs6  yerine string [] array kullanıyorum  ==>> string[] kurslar = new string[] {"","", }
             string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı",
